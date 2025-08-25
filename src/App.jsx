@@ -21,7 +21,7 @@ export default function App() {
       
       // Uncomment this section and comment out the demo code above when you have your API ready:
       
-      const response = await fetch('http://localhost:3000/quote');
+      const response = await fetch('https://30e6a09f9de5.ngrok-free.app/quote');
       if (!response.ok) {
         throw new Error('Failed to fetch quote');
       }
